@@ -279,7 +279,7 @@ VIEWS.settings = r => `${subHead("Pengaturan")}
 const DEV = {
   name: "Miftah Faturahman",                       // ← ganti nama Anda
   role: "Developer DuitTrack Pro",         // ← ganti jabatan/julukan
-  photo: "icons/developer.jpg",            // ← foto Anda (lihat langkah 5)
+  photo: "developer.jpg",            // ← foto Anda (lihat langkah 5)
   quote: "Building Digital Experiences Saya Fatur, developer independen yang terus belajar, bereksperimen, dan mengembangkan solusi digital melalui kode. DuitTrack merupakan salah satu proyek saya yang berfokus pada pengelolaan keuangan pribadi dengan antarmuka modern, fitur yang praktis, dan pengalaman pengguna yang nyaman.Setiap proyek adalah kesempatan untuk belajar, berkembang, dan menciptakan sesuatu yang lebih baik.Designed to be useful. Built to keep improving. © 2026 @panggilsayafatur.",  // ← ganti kata-kata Anda
   links: [                                 // ← hapus/tambah/ganti sesuai kebutuhan
     ["📸", "Instagram", "https://instagram.com/@panggilsayafatur"],
