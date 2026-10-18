@@ -1,4 +1,4 @@
-const CACHE = "duittrack-pro-v2.0.3";
+const CACHE = "duittrack-pro-v2.0.4";
 const FILES = ["./", "./index.html", "./style.css", "./manifest.json", "./core.js", "./charts.js", "./forms.js", "./views.js", "./main.js", "./icon.svg", "./icon-192.png", "./icon-512.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES))); self.skipWaiting(); });
 self.addEventListener("activate", e => {
