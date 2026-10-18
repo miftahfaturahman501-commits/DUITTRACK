@@ -305,7 +305,7 @@ const APP_INFO = {
 
 /* ---------- Tentang Aplikasi ---------- */
 VIEWS.about = () => `${subHead("Tentang Aplikasi")}
-  <section class="about-hero"><img src="icons/icon-192.png" alt="Logo"><h2>DuitTrack Pro</h2><small>Versi ${APP_INFO.version}</small>
+  <section class="about-hero"><img src="icon-192.png" alt="Logo"><h2>DuitTrack Pro</h2><small>Versi ${APP_INFO.version}</small>
     <p class="muted">${esc(APP_INFO.tagline)}</p></section>
   <div class="sec-h"><h3>Fitur</h3></div>
   <div class="card flush">${APP_INFO.features.map(f => `<div class="feat"><span class="tx-ic">${f[0]}</span><span><b>${esc(f[1])}</b><small>${esc(f[2])}</small></span></div>`).join("")}</div>
