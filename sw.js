@@ -1,5 +1,5 @@
 const CACHE = "duittrack-pro-v2.0.2";
-const FILES = ["./", "./index.html", "./style.css", "./manifest.json", "./js/core.js", "./js/charts.js", "./js/forms.js", "./js/views.js", "./js/main.js", "./icons/icon.svg", "./icons/icon-192.png", "./icons/icon-512.png"];
+const FILES = ["./", "./index.html", "./style.css", "./manifest.json", "./core.js", "./charts.js", "./forms.js", "./views.js", "./main.js", "./icon.svg", "./icon-192.png", "./icon-512.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES))); self.skipWaiting(); });
 self.addEventListener("activate", e => {
   e.waitUntil(caches.keys().then(k => Promise.all(k.filter(x => x !== CACHE).map(x => caches.delete(x)))).then(() => self.clients.claim()));
